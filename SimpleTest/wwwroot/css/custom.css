@@ -1,0 +1,40 @@
+﻿#success {
+    -webkit-animation: cssAnimation 5s forwards;
+    animation: cssAnimation 5s forwards;
+    margin-top: 10px;
+    width: 50%;
+    z-index: 2000;
+    position: absolute;
+}
+
+@keyframes cssAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes cssAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#information {
+    margin-top: 10%;
+}
